@@ -25,7 +25,7 @@ end
 
 headings = headings.to_a
 
-# Step 3 : Use of dig method to look for nested values & join method on array to transformed as a string.
+# Step 3 : Use of dig to look for nested values & join on array to transformed as a string.
 
 CSV.open('file3.csv', 'w') do |csv|
   csv << headings
